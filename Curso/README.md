@@ -1,4 +1,4 @@
 # Sesiones-python
 ## Notebook con avance en lenguaje python
-### Los códigos de práctica son hecho apartir del curso de "código facilito" y las sesiónes con rodo ferro
+### En este repositorio estaré subiendo mi avance del aprendizaje en el lenguaje de python y su librerias
 https://codigofacilito.com/usuarios/mis_cursos
