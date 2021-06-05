@@ -7,3 +7,19 @@
 * https://matplotlib.org/
 
 ### Entre otros links 
+
+
+## Sobre carga de operadores (Pendiente)
+
+| **Operador** | **Método** | **Expresión** |
+| -- | -- | -- |
+|+ adición 
+|- substracción 
+|* Múltiplicación 
+|@ Múltiplicación de matriz
+|/ División 
+|/ División 
+|// División entera
+|% Residuo
+|** Potencia
+|<<
