@@ -7,9 +7,11 @@
 * https://matplotlib.org/
 
 ### Entre otros links 
+----------------
 
 
-## Sobre carga de operadores (Pendiente)
+
+## Sobre carga de operadores 
 
 | **Operador** | **Método** | **Expresión** |
 | -- | -- | -- |
