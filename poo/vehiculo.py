@@ -1,4 +1,4 @@
-
+import datetime as dt
 
 
 class Vehiculo: 
@@ -25,7 +25,9 @@ class Vehiculo:
     def apagar_autou(self):
         self.encendido = False
 
-        
+    @staticmethod
+    def get_date():
+        return dt.datetime.now()
 
 
 class Moto(Vehiculo):
