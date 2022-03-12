@@ -12,7 +12,7 @@
 
     - Mezclar deck 
 
-    ```
+    ```python
     deck.mezclar()
     ```
     >Buscar algoritmo fisher_yates
