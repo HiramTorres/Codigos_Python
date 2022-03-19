@@ -1,9 +1,9 @@
 # Tarea para poo
 
-- [ ] Definir clase carta
-   - [ ] Atributos: palo, valor
-- [ ] Definir clase baraja
-   - [ ] Atributos: cartas (lista de cartas)
+- [x] Definir clase carta
+   - [x] Atributos: palo, valor
+- [x] Definir clase baraja
+   - [x] Atributos: cartas (lista de cartas)
    - [ ] Métodos: Robar una carta,actualizar la lista y quitar la carta de la lista.
 
     ```python
