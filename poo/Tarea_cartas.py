@@ -8,19 +8,25 @@ class Carta:
         self.palo = palo
         self.valor = valor
 
+    def __str__(self):
+        return self.valor + " de " + self.palo
+
+    
+    def robar_carta(self,deck):
+        carta = deck[randint(0,len(deck)-1)]
+        deck.remove(carta)
+        return carta
+
 class baraja:
     def __init__(self,cartas):
 
         self.cartas = cartas
     
 
-    def shuffle(cartas):
-
-        shuffle_cards = cartas.copy()
-
-        x = len(shuffle_cards)
-        for i in range(x-1,0,-1):
+    def shuffle(self):
+        for i in range(len(self.cartas)-1,0,-1):
             j = randint(0,i)
-            shuffle_cards[i],shuffle_cards[j] = shuffle_cards[j], shuffle_cards[i]
-        return shuffle_cards
+            self.cartas[i],self.cartas[j] = self.cartas[j],self.cartas[i]
+        return self.cartas
+
 
