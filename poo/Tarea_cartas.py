@@ -12,16 +12,17 @@ class Carta:
         return self.valor + " de " + self.palo
 
     
-    def robar_carta(self,deck):
-        carta = deck[randint(0,len(deck)-1)]
-        deck.remove(carta)
-        return carta
+    
 
 class baraja:
     def __init__(self,cartas):
 
         self.cartas = cartas
     
+    def robar_carta(self,carta):
+        carta = deck[randint(0,len(deck)-1)]
+        deck.remove(carta)
+        return carta
 
     def shuffle(self):
         for i in range(len(self.cartas)-1,0,-1):
